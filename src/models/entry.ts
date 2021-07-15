@@ -15,9 +15,9 @@ export interface Entry {
     labels: string[];
 
     /**
-     * Parent entry Id. if unset, the entry does not have a parent
+     * Parent entry Id. if -1, the entry does not have a parent
      */
-    parentId?: number;
+    parentId: number;
 
     /**
      * Indicate if the entry will have row data
